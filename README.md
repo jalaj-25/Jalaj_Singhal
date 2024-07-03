@@ -1,31 +1,27 @@
-# Questions for Day 10 – (30/06/2024)
+# Questions for Day 13 – (03/07/2024)
 ## DSA:
-
-
-
-**Question 1:** Write a function to reverse a queue using recursive calls.
+**Question 1:**  Determine if a string can be segmented into a space-separated sequence of dictionary words.
 ##### Inputs:
-- A queue.
+-	A string and a dictionary of words.
 ##### Output:
-- The reversed queue.
-##### Example:
-queue = [1, 2, 3]
-
-Output: [3, 2, 1]
-
-**Question 2:**  Implement a queue using two stacks. The queue should support standard operations like enqueue and dequeue.
-
-##### Inputs/Outputs:
-- Methods for queue operations.
+-	"YES" if the string can be segmented, otherwise "NO".
 ##### Example:
 
-queue.enqueue(1)
+string = "applepie"
 
-queue.enqueue(2)
+dictionary = ["apple", "pie"]
 
-queue.dequeue()  # Output: 1
+##### Output: YES
 
-queue.dequeue()  # Output: 2
+**Question 2:** Create a function to check if a number is a palindrome using recursion.
+##### Inputs:
+-	An integer.
+##### Output:
+- "YES" if the number is a palindrome, otherwise "NO".
+##### Example:
+number = 121
+##### Output: YES
+
 
 
 
@@ -38,20 +34,14 @@ queue.dequeue()  # Output: 2
 
 ## WEB-DEV:
 
+Today we will apply everything that we have learnt, and try to make a Coin Toss game in three steps.
+1.	Generate a random number with Math.random(). Save it in a variable. 
+2.	Create an if-statement and check: If the number is less than 0.5, then save the result in a variable called 'result'.
+3.	Let's say we're trying to guess the result. Create a variable called 'guess' and save your guess ('heads' or 'tails'). 
+If your guess matches the result, display 'You win!' in the console
+ If your guess does not match the result, display 'You lose!'
 
-1.	Create a <button>Hello</button>. Use document.querySelector('button') to get the button from the page, and then display it in the console.
-2.	Continuing from 1, create another button < button>Hello< /button> below. Using JavaScript, change the text in the second button to 'Hello <YourName>!' (hint: add a class and use .querySelector).
-3.	Create 2 buttons 'heads' and 'tails', and a paragraph ( < p>< / p>) underneath. When clicking the 'heads' button, display 'You chose: heads' in the paragraph. When the 'tails' button, display 'You chose: tails'.
-
-   
-    ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/0c05d0a7-d3ca-45c9-8671-1605b89f09dc)
-
-4.	Create a text box (< input>) and a submit button. When clicking 'Submit', display 'Your name is: ${text}' on the page (${text} = the text inside the text box) (hint: use .value to get the text inside an <input>)
-
-
-  	![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/d593b7b9-8574-4ecd-8fea-c14cc348b89a)
-
-6.	Write a JavaScript function that toggles the visibility of an HTML element when a button is clicked. Initially, the element should be hidden. Clicking the button should toggle the visibility of the element between hidden and visible states.(hint: change display to none/block)
+You can make it visually appealing by using your own creativity.
 
 
 
