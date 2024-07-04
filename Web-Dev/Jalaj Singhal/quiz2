@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .twt{
+            display: flex;
+        }
+
+        img{
+            height: 50px;
+            width: 50px;
+        }
+
+        .content{
+            margin-left: 50px;
+            width: 330px;
+        }
+
+        .tweet{
+            color: black;
+            font-weight: bolder;
+        }
+
+        .grey{
+            color: grey;
+            padding-left: 20px;
+        }
+
+        .cont{
+            padding-left: 20px;
+        }
+
+        .konfub{
+            margin-left: 100px;
+            border-color: black;
+            border: 2px solid #d3d3d3;
+            width: 330px;
+            border-radius: 5px;
+            display: flex;
+        }
+
+        .gre{
+            height: 70px;
+            width: 165px;
+            background-color: #d3d3d3;
+        }
+
+        .white{
+            height: 70px;
+            width: 165px;
+        }
+    </style>
+</head>
+<body>
+    <div class="twt">
+        <img src="https://private-user-images.githubusercontent.com/142733510/345888032-0689debb-2e3d-4af4-bbf8-b2cca09a8d2a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAxMTEyNTksIm5iZiI6MTcyMDExMDk1OSwicGF0aCI6Ii8xNDI3MzM1MTAvMzQ1ODg4MDMyLTA2ODlkZWJiLTJlM2QtNGFmNC1iYmY4LWIyY2NhMDlhOGQyYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwNFQxNjM1NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kNDJiMjNkNzU4YmMwYjA5ZjlmOTMzZTg0NWQwNjIxOWY0NjViMjMxMzMwMDgzMjlkM2YwZTA3YTc3ZjliOWFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.LCb3bMocDGgscjL4slWeL68XzV1Re-wmm6OpSQD4E3o" alt="upes acm logo">
+
+    <div class="content">
+        <p class="tweet">UPESACM</p> <p class="grey">@upesacm</p>  <br>
+        <p>Tried of coding tutorial that leave you lost in a sea of information? Crave a challenge that pushes you to build a real-world skills? UPES ACM & ACM-W Student Chapters have your back!!</p>
+    </div>
+</div>
+<div class="konfub">
+    <div class="gre"></div>
+    <div class="white">
+        <p class="grey">knofuhub.com</p> <br>
+        <p class="cont">the 21days of code challenge</p>
+    </div>
+</div>
+</body>
+</html>
