@@ -1,20 +1,44 @@
-# Quiz - 2
+# Questions for Day 18 – (07/08/2024)
+## DSA:
+**Question 1:** 
+Write a function to return the top view of a binary tree, which is the set of nodes visible when the tree is viewed from above.
+##### Inputs:
+- The root node of the binary tree.
+##### Output:
+- The values of the nodes in the top view.
+##### Example:
+# Binary Tree:
+```
+       1
+      / \
+     2   3
+    / \ / \
+   4  5 6  7
+ ```
+#### Output: [4, 2, 1, 3, 7]
+<br>
 
-## Web-Dev
-- Upload your answer to Quiz-2 folder and add your name folder inside which your answer's file will be added.
-- If file format is not followed properly your answers will not be accepted.
+**Question 2:** 
+Given a Huffman tree and a binary string, decode the string into the original text.
+##### Inputs:
+- The root node of the Huffman tree.
+- A binary string.
+##### Output:
+- The decoded text.
+##### Example:
+```
+Huffman Tree: {(A: 3), (B: 1), (C: 1)}
+Binary String: "1001011"
+```
+#### Output: "ABCA"
+<br>
 
-Q1. Replicate Tweet
+## WEB-DEV:
+Today, we will work on SQL queries to manipulate and retrieve data from the employees table.
+1. Write a SQL query to retrieve all columns from the employees table.
+2. Write a SQL query to retrieve the names of employees who have a salary greater than $50,000, sorted in descending order by salary.
+3. Write a SQL query to calculate the average salary of all employees.
+4. Write a SQL query to insert a new employee into the employees table with the following details: emp_id as 106, emp_name as 'John Doe', salary as $60,000, and dept_id as 3.
+5. Write a SQL query to update the salary of an employee with emp_id 101 to $65,000 in the employees table.
 
-Replicate the image of this tweet using HTML and CSS.
-
-![image](https://github.com/upesacm/21DaysOfCode-2024/assets/142733510/934246d7-67c0-438e-a8dd-2abaca18dd9c)
-
-This is the iamge of the chapter's logo.
-
-![image](https://github.com/upesacm/21DaysOfCode-2024/assets/142733510/0689debb-2e3d-4af4-bbf8-b2cca09a8d2a)
-
-Good luck!
-
-## DSA
- Go to link: [https://www.hackerrank.com/21-days-of-code-2024-quiz-2](https://www.hackerrank.com/21-days-of-code-2024-quiz-2)
+Submit all the queries performed in a .txt file
